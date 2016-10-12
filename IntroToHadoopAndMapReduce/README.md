@@ -9,6 +9,8 @@ The raw data for this project is available [here](http://content.udacity-data.co
 
 And [here](https://www.udacity.com/wiki/ud617/local-testing-instructions/) are instructions for local testing with a smaller dataset.
 
+To run the code locally: cat student_test_posts.csv | python mapper.py | sort | python reducer.py
+
 #### Lesson 4: Inverted Index (Fantastic/Fantastically)
 
 Lesson 4 uses the same dataset as the final project. The [Inverted Index exercise](https://classroom.udacity.com/courses/ud617/lessons/713848763/concepts/7111190830923) asked us to write a MapReduce program that creates an index of all words in the "body" of the forum_node.tsv file. The quiz questions specifically asked for the occurrence of the word "fantastic" and "fantastically".
